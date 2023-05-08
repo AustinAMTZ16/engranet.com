@@ -1,26 +1,26 @@
 <?php
 if(!isset($_SESSION)){ 
         session_start(); 
-        // Define database PRODUCTIVO
-        // define('dbhost', '45.89.204.4');
-        // define('dbuser', 'u115254492_casapiedra');
-        // define('dbpass', 'CasaDePidra22');
-        // define('dbname', 'u115254492_sistemahotel');
-
-        // Define database DESARROLLO QA
-        define('dbhost', '45.89.204.4');
-        define('dbuser', 'u115254492_root_engranet');
-        define('dbpass', 'root2909K');
-        define('dbname', 'u115254492_engranet');
-
-        // Define database LOCAL
-        // define('dbhost', 'localhost');
-        // define('dbuser', 'root');
-        // define('dbpass', '');
-        // define('dbname', 'sistemahotel');
-
-        // Connecting database
     }
+    // Define database PRODUCTIVO
+    // define('dbhost', '45.89.204.4');
+    // define('dbuser', 'u115254492_casapiedra');
+    // define('dbpass', 'CasaDePidra22');
+    // define('dbname', 'u115254492_sistemahotel');
+
+    // Define database DESARROLLO QA
+    define('dbhost', '45.89.204.4');
+    define('dbuser', 'u115254492_root_engranet');
+    define('dbpass', 'root2909K');
+    define('dbname', 'u115254492_engranet');
+
+    // Define database LOCAL
+    // define('dbhost', 'localhost');
+    // define('dbuser', 'root');
+    // define('dbpass', '');
+    // define('dbname', 'sistemahotel');
+
+    // Connecting database
 try {
     $connect = new PDO("mysql:host=".dbhost."; dbname=".dbname, dbuser, dbpass);
     $connect->query("set names utf8;");
