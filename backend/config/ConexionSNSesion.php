@@ -9,9 +9,9 @@
 
 // Define database DESARROLLO QA
 define('dbhost', '45.89.204.4');
-define('dbuser', 'u115254492_casapiedraQA');
-define('dbpass', 'CasaDePidra22');
-define('dbname', 'u115254492_sistemahotelQA');
+define('dbuser', 'u115254492_root_engranet');
+define('dbpass', 'root2909K');
+define('dbname', 'u115254492_engranet');
 
 // Define database LOCAL
 // define('dbhost', 'localhost');
